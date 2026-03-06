@@ -7,19 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-I am an Economist at [Amazon Web Services (AWS)](https://aws.amazon.com), where I lead causal measurement and marketing science for AWS's go-to-market initiatives. My work sits at the intersection of causal inference, machine learning, and applied microeconomics — with a focus on building rigorous, scalable systems that translate economic insights into business decisions.
+I am an Economist at  [Amazon Web Services (AWS)](https://aws.amazon.com), where I lead causal measurement and marketing science for AWS's go-to-market initiatives. My work spans causal inference, machine learning, and applied microeconomics — with a focus on multi-touch attribution and recommendation systems that translate rigorous economic thinking into scalable, everyday business decisions.
 
-At AWS, I serve as Science Lead for the multi-touch attribution (MTA) program, designing and deploying Markov chain and regression-based attribution frameworks calibrated with experimental and quasi-experimental causal estimates. I also lead AWS Marketing's channel-level experimentation strategy, combining randomized controlled trials (RCTs) and quasi-experimental methods to measure the incremental impact of marketing investments across owned channels.
+My academic research applies causal inference and applied microeconomic methods to questions in health economics, political economy, and development economics, with a particular focus on sub-Saharan Africa.
 
---- Prior to AWS, I was an Economist at Amazon.com's Worldwide Stores, where I developed double machine learning (DML) frameworks to quantify the causal impact of negative --- customer experiences on long-run purchase behavior — work that informed remediation strategies protecting ~$85MM in revenue.
+Prior to joining Amazon, I was a Postdoctoral Research Scientist at the [Milken Institute School of Public Health](https://publichealth.gwu.edu/) at [George Washington University](https://www.gwu.edu/), where my research focused on the microeconomics of health and education in low- and  middle-income countries, with an emphasis on gender and youth.
 
-My academic research applies causal inference and applied microeconomic methods to questions in **health economics**, **political economy**, and **development economics**, with a particular focus on sub-Saharan Africa. I have published in the *Journal of Human Resources*, *eClinicalMedicine*, *Appetite*, and *Advances in Global Health*.
-
-I hold a Ph.D. and M.S. in Applied Economics from the University of Florida, and a B.S. in Agriculture (Agribusiness and Economics) from the University of Cape Coast, Ghana.
+I hold a Ph.D. and M.S. in Applied Economics from the [University of Florida](https://www.ufl.edu/), and a B.S. in Agriculture (Agribusiness and Economics) from the [University of Cape Coast, Ghana](https://ucc.edu.gh/).
 
 ---
 
-### Research Interests
+## Research Interests
 - Causal inference and program evaluation
 - Marketing science and measurement
 - Health economics and adolescent development
@@ -28,6 +26,9 @@ I hold a Ph.D. and M.S. in Applied Economics from the University of Florida, and
 
 ---
 
-### Recent News
-- **March 2026** — Working paper on conflict and income-generating activities under review at *Economic Development and Cultural Change (EDCC)*
-- **November 2023** — Paper on mental wellness of adolescent girls published in the *Journal of Human Resources*
+## Recent News
+**March 2026** — Working paper on conflict and income-generating activities 
+under review at *Economic Development and Cultural Change* (EDCC).
+
+**November 2023** — Paper on mental wellness of adolescent girls published in 
+the *Journal of Human Resources*.
