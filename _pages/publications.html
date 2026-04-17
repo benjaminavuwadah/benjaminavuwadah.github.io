@@ -34,4 +34,7 @@ author_profile: true
 
 <h2>Working Papers</h2>
 
-<p>Working papers coming soon.</p>
+{% assign working_papers = site.publications | where: "category", "working-papers" | sort: "date" | reverse %}
+{% for post in working_papers %}
+  {% include archive-single.html %}
+{% endfor %}
