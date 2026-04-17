@@ -1,7 +1,7 @@
 ---
 title: "Heterogenous effects of conflict on agricultural production patterns: Evidence from Nigeria"
 collection: publications
-category: manuscripts
+category: working-papers
 permalink: /publication/2020-01-01-conflict-agricultural-production-nigeria
 excerpt: 'This study draws a distinction between different types of conflict in Nigeria and estimates the effects of various conflict types on crop production patterns and livestock holding at the household level.'
 date: 2020-01-01
