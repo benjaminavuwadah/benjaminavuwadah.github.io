@@ -11,9 +11,11 @@ I am an Economist at  [Amazon Web Services (AWS)](https://aws.amazon.com), where
 
 My academic research applies causal inference and applied microeconomic methods to questions in health economics, political economy, and development economics, with a particular focus on sub-Saharan Africa.
 
-Prior to joining Amazon, I was a Postdoctoral Research Scientist at the [Milken Institute School of Public Health](https://publichealth.gwu.edu/) at [George Washington University](https://www.gwu.edu/), where my research focused on the microeconomics of health and education in low- and  middle-income countries, with an emphasis on gender and youth.
+Prior to joining Amazon, I was a Postdoctoral Research Scientist at the [Milken Institute School of Public Health](https://publichealth.gwu.edu/) at [George Washington University](https://www.gwu.edu/), where my research focused on the microeconomics of health and education in low- and middle-income countries, with an emphasis on gender and youth.
 
-I hold a Ph.D. and M.S. in Applied Economics from the [University of Florida](https://www.ufl.edu/), and a B.S. in Agriculture (Agribusiness and Economics) from the [University of Cape Coast, Ghana](https://ucc.edu.gh/).
+I hold a Ph.D. and M.S. in Applied Economics from the University of Florida, and a B.S. in Agriculture (Agribusiness and Economics) from the University of Cape Coast, Ghana.
+
+You can download my CV [here](/files/cv.pdf).
 
 ---
 
