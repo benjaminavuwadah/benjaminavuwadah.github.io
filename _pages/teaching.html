@@ -5,20 +5,110 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+.teaching-section {
+  margin-top: 1.8em;
+  padding-top: 1.5em;
+  border-top: 2px solid #e8e8e8;
+}
 
-<h2>Guest Lecturer</h2>
+.teaching-section:first-of-type {
+  margin-top: 0.5em;
+  border-top: none;
+}
 
-<ul>
-  <li>AEB4242: International Humanitarian Assistance, University of Florida (Fall 2019 and Spring 2020)</li>
-</ul>
+.teaching-section-title {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #494e52;
+  margin-bottom: 1.2em;
+}
 
-<h2>Teaching Assistant</h2>
+.course-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-<ul>
-  <li>AEB4283: International Development Policy, University of Florida (Fall 2017, 2018, 2020; Spring 2018, 2019, 2020)</li>
-  <li>AEB3281: Agricultural Macroeconomics, University of Florida (Fall 2019)</li>
-  <li>AEB3510: Quantitative Method, University of Florida (Fall 2019)</li>
-  <li>Introduction to Econometrics, University of Cape Coast, Ghana (Fall 2011, 2012)</li>
-  <li>Elements of Economics, University of Cape Coast, Ghana (Spring 2012, 2013)</li>
-</ul>
+.course-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em 1em;
+  padding: 0.9em 0;
+  border-bottom: 1px solid #f0f0f0;
+  align-items: baseline;
+}
+
+.course-item:last-child {
+  border-bottom: none;
+}
+
+.course-code {
+  font-weight: 700;
+  font-size: 0.88em;
+  color: #2a4a6b;
+  background: #f0f4f8;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  white-space: nowrap;
+  border: 1px solid #d0dce8;
+}
+
+.course-name {
+  font-size: 0.95em;
+  color: #333;
+  font-weight: 500;
+  flex: 1;
+  min-width: 180px;
+}
+
+.course-meta {
+  font-size: 0.82em;
+  color: #888;
+  white-space: nowrap;
+}
+</style>
+
+<div class="teaching-section">
+  <h2 class="teaching-section-title">Guest Lecturer</h2>
+  <ul class="course-list">
+    <li class="course-item">
+      <span class="course-code">AEB4242</span>
+      <span class="course-name">International Humanitarian Assistance</span>
+      <span class="course-meta">University of Florida &mdash; Fall 2019, Spring 2020</span>
+    </li>
+  </ul>
+</div>
+
+<div class="teaching-section">
+  <h2 class="teaching-section-title">Teaching Assistant</h2>
+  <ul class="course-list">
+    <li class="course-item">
+      <span class="course-code">AEB4283</span>
+      <span class="course-name">International Development Policy</span>
+      <span class="course-meta">University of Florida &mdash; Fall 2017, 2018, 2020; Spring 2018, 2019, 2020</span>
+    </li>
+    <li class="course-item">
+      <span class="course-code">AEB3281</span>
+      <span class="course-name">Agricultural Macroeconomics</span>
+      <span class="course-meta">University of Florida &mdash; Fall 2019</span>
+    </li>
+    <li class="course-item">
+      <span class="course-code">AEB3510</span>
+      <span class="course-name">Quantitative Methods</span>
+      <span class="course-meta">University of Florida &mdash; Fall 2019</span>
+    </li>
+    <li class="course-item">
+      <span class="course-code">&nbsp;</span>
+      <span class="course-name">Introduction to Econometrics</span>
+      <span class="course-meta">University of Cape Coast, Ghana &mdash; Fall 2011, 2012</span>
+    </li>
+    <li class="course-item">
+      <span class="course-code">&nbsp;</span>
+      <span class="course-name">Elements of Economics</span>
+      <span class="course-meta">University of Cape Coast, Ghana &mdash; Spring 2012, 2013</span>
+    </li>
+  </ul>
+</div>
