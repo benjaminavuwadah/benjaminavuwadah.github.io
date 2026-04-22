@@ -7,18 +7,130 @@ author_profile: true
 
 {% include base_path %}
 
-<p>Also find my articles on <a href="https://scholar.google.com/citations?user=5uK8ga0AAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
+<style>
+.research-intro {
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 2em;
+}
 
-<h2>Selected Publications</h2>
+.research-intro a {
+  color: #0092ca;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.research-intro a:hover {
+  text-decoration: underline;
+}
+
+.research-section-title {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #494e52;
+  margin: 2em 0 1.2em 0;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.paper-card {
+  padding: 1.4em 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.paper-card:last-child {
+  border-bottom: none;
+}
+
+.paper-title {
+  font-size: 1.05em;
+  font-weight: 600;
+  margin: 0 0 0.4em 0;
+}
+
+.paper-title a {
+  color: #2a4a6b;
+  text-decoration: none;
+}
+
+.paper-title a:hover {
+  color: #0092ca;
+  text-decoration: underline;
+}
+
+.paper-venue {
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 0.5em;
+  font-style: italic;
+}
+
+.paper-excerpt {
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0.5em;
+}
+
+.paper-links a {
+  font-size: 0.82em;
+  color: #0092ca;
+  text-decoration: none;
+  margin-right: 1em;
+  font-weight: 500;
+}
+
+.paper-links a:hover {
+  text-decoration: underline;
+}
+
+.working-paper-badge {
+  display: inline-block;
+  background: #fff8e6;
+  color: #b07d00;
+  border: 1px solid #f0d080;
+  font-size: 0.75em;
+  padding: 0.15em 0.6em;
+  border-radius: 10px;
+  margin-left: 0.5em;
+  vertical-align: middle;
+  font-weight: 600;
+}
+</style>
+
+<p class="research-intro">
+  Also find my articles on <a href="https://scholar.google.com/citations?user=5uK8ga0AAAAJ&hl=en" target="_blank">Google Scholar</a>.
+</p>
+
+<h2 class="research-section-title">Selected Publications</h2>
 
 {% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
 {% for post in manuscripts %}
-  {% include archive-single.html %}
+  <div class="paper-card">
+    <h3 class="paper-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    {% if post.venue %}<p class="paper-venue">{{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>{% endif %}
+    {% if post.excerpt %}<p class="paper-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>{% endif %}
+    <div class="paper-links">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">&#8599; Download Paper</a>{% endif %}
+    </div>
+  </div>
 {% endfor %}
 
-<h2>Working Papers</h2>
+<h2 class="research-section-title">Working Papers</h2>
 
 {% assign working_papers = site.publications | where: "category", "working-papers" | sort: "date" | reverse %}
 {% for post in working_papers %}
-  {% include archive-single.html %}
+  <div class="paper-card">
+    <h3 class="paper-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="working-paper-badge">Working Paper</span>
+    </h3>
+    {% if post.venue %}<p class="paper-venue">{{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>{% endif %}
+    {% if post.excerpt %}<p class="paper-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>{% endif %}
+    <div class="paper-links">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">&#8599; Download Paper</a>{% endif %}
+    </div>
+  </div>
 {% endfor %}
