@@ -9,28 +9,12 @@ author_profile: true
 
 <h2>Publications</h2>
 
-<div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?user=5uK8ga0AAAAJ&hl=en">my Google Scholar profile</a>.</div>
-
 <h2>Selected Publications</h2>
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+{% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% for post in manuscripts %}
+  {% include archive-single.html %}
+{% endfor %}
 
 <h2>Working Papers</h2>
 
