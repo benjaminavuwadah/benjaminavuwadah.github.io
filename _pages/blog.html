@@ -1,0 +1,147 @@
+---
+layout: archive
+title: "Blog"
+permalink: /blog/
+author_profile: true
+---
+
+<style>
+.blog-intro {
+  font-size: 1.05em;
+  color: #555;
+  margin-bottom: 2em;
+  line-height: 1.7;
+  border-left: 4px solid #494e52;
+  padding-left: 1em;
+}
+
+.blog-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 2.5em;
+}
+
+.blog-category-tag {
+  background: #f4f4f4;
+  color: #494e52;
+  padding: 0.3em 0.9em;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.blog-posts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-post-item {
+  padding: 1.5em 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.blog-post-item:last-child {
+  border-bottom: none;
+}
+
+.blog-post-meta {
+  font-size: 0.82em;
+  color: #888;
+  margin-bottom: 0.4em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.blog-post-title {
+  font-size: 1.15em;
+  font-weight: 600;
+  margin: 0 0 0.4em 0;
+}
+
+.blog-post-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.blog-post-title a:hover {
+  color: #0092ca;
+  text-decoration: underline;
+}
+
+.blog-post-excerpt {
+  color: #666;
+  font-size: 0.93em;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.blog-tag {
+  display: inline-block;
+  background: #eef4fb;
+  color: #0092ca;
+  font-size: 0.75em;
+  padding: 0.15em 0.6em;
+  border-radius: 10px;
+  margin-right: 0.3em;
+  margin-top: 0.5em;
+}
+
+.blog-empty {
+  text-align: center;
+  padding: 3em 1em;
+  color: #888;
+}
+
+.blog-empty .blog-empty-icon {
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
+}
+
+.blog-empty p {
+  font-size: 1em;
+  margin: 0;
+}
+</style>
+
+<p class="blog-intro">
+  Writing on applied economics research, causal inference, and life beyond the office &mdash; fatherhood, travel, and reflections from Ghana and beyond.
+</p>
+
+<div class="blog-categories">
+  <span class="blog-category-tag">Research</span>
+  <span class="blog-category-tag">Causal Inference</span>
+  <span class="blog-category-tag">Fatherhood</span>
+  <span class="blog-category-tag">Travel</span>
+  <span class="blog-category-tag">Ghana</span>
+</div>
+
+{% if site.posts.size > 0 %}
+  <ul class="blog-posts-list">
+    {% for post in site.posts %}
+      <li class="blog-post-item">
+        <div class="blog-post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
+        <h2 class="blog-post-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        {% if post.excerpt %}
+          <p class="blog-post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        {% endif %}
+        {% if post.tags %}
+          <div>
+            {% for tag in post.tags %}
+              <span class="blog-tag">#{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <div class="blog-empty">
+    <div class="blog-empty-icon">&#9998;</div>
+    <p>Posts coming soon &mdash; stay tuned.</p>
+  </div>
+{% endif %}
