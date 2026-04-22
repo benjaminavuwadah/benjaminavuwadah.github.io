@@ -12,14 +12,11 @@ main:
     url: /publications/
 
   - title: "Teaching"
-    url: /teaching/ 
-  
-  - title: "Portfolio"
-    url: /portfolio/
-  
+    url: /teaching/
+
   - title: "Blog"
     url: /blog/
-  
+
   # - title: "CV"
   #   url: /cv/
   
