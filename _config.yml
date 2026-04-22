@@ -23,9 +23,9 @@ repository               : "benjaminavuwadah/benjaminavuwadah.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Benjamin Y. Avuwadah"
+  name             :
   pronouns         : # example: "she/her"  
-  bio              : "Economist at AWS. Applied micro researcher. Father. Ghanaian."
+  bio              :
   location         : "Arlington, VA"
   employer         : #"Red Brick University"
   uri              : # URL
