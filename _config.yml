@@ -23,10 +23,10 @@ repository               : "benjaminavuwadah/benjaminavuwadah.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Your Sidebar Name"
+  name             : "Benjamin Y. Avuwadah"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Arlignton, VA"
+  bio              : "Economist at AWS. Applied micro researcher. Father. Ghanaian."
+  location         : "Arlington, VA"
   employer         : #"Red Brick University"
   uri              : # URL
   email            : "benjaminavuwadah@gmail.com" 
