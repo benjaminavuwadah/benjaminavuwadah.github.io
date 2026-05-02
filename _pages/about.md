@@ -59,7 +59,7 @@ redirect_from:
 .cv-line a:hover { text-decoration: underline; }
 </style>
 
-I am an Economist at [Amazon Web Services (AWS)](https://aws.amazon.com), where I lead causal measurement and marketing science for AWS's go-to-market initiatives. My work spans causal inference, machine learning, and applied microeconomics — with a focus on multi-touch attribution and recommendation systems that translate rigorous economic thinking into scalable, everyday business decisions.
+I am an Economist at [Amazon Web Services (AWS)](https://aws.amazon.com), where I lead causal measurement and marketing science for AWS's go-to-market initiatives. My work spans causal inference, machine learning, and applied microeconomics â with a focus on multi-touch attribution and recommendation systems that translate rigorous economic thinking into scalable, everyday business decisions.
 
 My academic research applies causal inference and applied microeconomic methods to questions in health economics, political economy, and development economics, with a particular focus on sub-Saharan Africa.
 
@@ -82,6 +82,8 @@ I hold a Ph.D. and M.S. in Applied Economics from the University of Florida, and
 </div>
 
 <p class="section-label">Recent News</p>
+<div class="news-row"><span class="news-dt">May 2026</span><span>New working paper: <em>Prohibition Without Alternatives: Grazing Bans and Farmer-Herder Conflict in Nigeria</em> (with Conner Mullally and Jaclyn Kropp). Updated draft.</span></div>
 <div class="news-row"><span class="news-dt">Apr 2026</span><span>New working paper: <em>Managerial Turnover and Team Performance: Evidence from 33 Years of the English Premier League</em> (with Ahmed Salim Nuhu). Preliminary draft.</span></div>
+<div class="news-row"><span class="news-dt">Apr 2026</span><span>New working paper: <em>Household Consumption and Labor Responses to Farmer-Herder Conflict: Evidence from Nigeria</em> (with Jaclyn Kropp and Conner Mullally).</span></div>
 <div class="news-row"><span class="news-dt">Mar 2026</span><span>Working paper on conflict and income-generating activities under review at <em>Economic Development and Cultural Change</em> (EDCC).</span></div>
 <div class="news-row"><span class="news-dt">Nov 2023</span><span>Paper on mental wellness of adolescent girls published in the <em>Journal of Human Resources</em>.</span></div>
