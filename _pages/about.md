@@ -82,5 +82,6 @@ I hold a Ph.D. and M.S. in Applied Economics from the University of Florida, and
 </div>
 
 <p class="section-label">Recent News</p>
+<div class="news-row"><span class="news-dt">Apr 2026</span><span>New working paper: <em>Managerial Turnover and Team Performance: Evidence from 33 Years of the English Premier League</em> (with Ahmed Salim Nuhu). Preliminary draft.</span></div>
 <div class="news-row"><span class="news-dt">Mar 2026</span><span>Working paper on conflict and income-generating activities under review at <em>Economic Development and Cultural Change</em> (EDCC).</span></div>
 <div class="news-row"><span class="news-dt">Nov 2023</span><span>Paper on mental wellness of adolescent girls published in the <em>Journal of Human Resources</em>.</span></div>
