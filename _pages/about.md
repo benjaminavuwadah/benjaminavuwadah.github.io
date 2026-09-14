@@ -67,7 +67,7 @@ Prior to joining Amazon, I was a Postdoctoral Research Scientist at the [Milken 
 
 I hold a Ph.D. and M.S. in Applied Economics from the University of Florida, and a B.S. in Agriculture (Agribusiness and Economics) from the University of Cape Coast, Ghana.
 
-<p class="cv-line">&#128196; Download my <a href="/files/cv.pdf">CV</a></p>
+<p class="cv-line">&#128196; Download my <a href="/files/ba_resume.pdf">CV</a></p>
 
 <p class="section-label">Research Interests</p>
 <div class="tag-row">
