@@ -59,7 +59,7 @@ redirect_from:
 .cv-line a:hover { text-decoration: underline; }
 </style>
 
-I am an Economist at [Amazon Web Services (AWS)](https://aws.amazon.com), where I lead causal measurement and marketing science for AWS's go-to-market initiatives. My work spans causal inference, machine learning, and applied microeconomics — with a focus on multi-touch attribution and recommendation systems that translate rigorous economic thinking into scalable, everyday business decisions.
+I am an Economist at [Amazon Web Services (AWS)](https://aws.amazon.com), where I lead causal measurement and marketing science for AWS's go-to-market initiatives. My work spans causal inference, machine learning, and applied microeconomics, with a focus on multi-touch attribution and recommendation systems that translate rigorous economic thinking into scalable, everyday business decisions.
 
 My academic research applies causal inference and applied microeconomic methods to questions in health economics, political economy, and development economics, with a particular focus on sub-Saharan Africa.
 
