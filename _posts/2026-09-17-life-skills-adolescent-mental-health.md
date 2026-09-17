@@ -29,7 +29,58 @@ In **Bangladesh**, the Growth Mindset curriculum on its own raised socio-emotion
 
 In **Ethiopia**, Act With Her raised socio-emotional development by 0.158 standard deviations and the overall index by 0.172 standard deviations. Layering asset transfers onto the program muted those gains rather than amplifying them.
 
-**Tanzania** produced the sharpest result. Goal setting delivered on its own *increased* moderate to severe depression by 8.6 percentage points. The same intervention delivered where ELA clubs already existed *reduced* moderate to severe depression by 11 percentage points. The intervention was identical. What differed was the support structure around it.
+<svg class="bya-chart" viewBox="0 0 700 356" role="img" width="700" aria-label="Coefficient plot of the effect of each treatment arm on the mental health index in Bangladesh and Ethiopia, with 95 percent confidence intervals. Only the standalone arms are distinguishable from zero.">
+<style>
+.bya-chart{--s1:#2a78d6;--s2:#eb6834;font-family:inherit;max-width:100%;height:auto;display:block;margin:0 auto}
+:root[data-theme="dark"] .bya-chart{--s1:#3987e5;--s2:#d95926}
+.bya-chart text{fill:currentColor;font-family:inherit}
+.bya-chart .ax{font-size:13px;opacity:.62}
+.bya-chart .lab{font-size:14px}
+.bya-chart .val{font-size:13px;font-weight:600}
+.bya-chart .grp{font-size:12px;letter-spacing:.08em;text-transform:uppercase;opacity:.55}
+.bya-chart .rule{stroke:currentColor;opacity:.16;stroke-width:1}
+.bya-chart .zero{stroke:currentColor;opacity:.45;stroke-width:1.5}
+.bya-chart .s1{fill:var(--s1);stroke:var(--s1)}
+.bya-chart .s2{fill:var(--s2);stroke:var(--s2)}
+</style>
+<text x="8" y="22" class="lab" style="font-weight:700">Only the standalone programs shifted the index</text>
+<text x="8" y="42" class="ax">Effect on the mental health index, in standard deviations (95% CI)</text>
+<rect x="8" y="53" width="12" height="12" rx="3" class="s1"/>
+<text x="26" y="63" class="lab">Program on its own</text>
+<rect x="198" y="53" width="12" height="12" rx="3" class="s2"/>
+<text x="216" y="63" class="lab">Program plus add-on</text>
+<line x1="236.0" y1="74" x2="236.0" y2="294" class="rule"/>
+<text x="236.0" y="314" class="ax" text-anchor="middle">-0.2</text>
+<line x1="345.0" y1="74" x2="345.0" y2="294" class="zero"/>
+<text x="345.0" y="314" class="ax" text-anchor="middle">+0.0</text>
+<line x1="454.0" y1="74" x2="454.0" y2="294" class="rule"/>
+<text x="454.0" y="314" class="ax" text-anchor="middle">+0.2</text>
+<line x1="563.0" y1="74" x2="563.0" y2="294" class="rule"/>
+<text x="563.0" y="314" class="ax" text-anchor="middle">+0.4</text>
+<line x1="672.0" y1="74" x2="672.0" y2="294" class="rule"/>
+<text x="672.0" y="314" class="ax" text-anchor="middle">+0.6</text>
+<text x="8" y="90" class="grp">BANGLADESH</text>
+<text x="222" y="113" class="lab" text-anchor="end">Growth Mindset only</text>
+<line x1="367.3" y1="108" x2="634.4" y2="108" class="s1" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+<circle cx="500.9" cy="108" r="5.5" class="s1"/>
+<text x="643.4" y="113" class="val">+0.29*</text>
+<text x="222" y="159" class="lab" text-anchor="end">Growth Mindset + Girl Rising</text>
+<line x1="292.6" y1="154" x2="495.5" y2="154" class="s2" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+<circle cx="394.1" cy="154" r="5.5" class="s2"/>
+<text x="504.5" y="159" class="val">+0.09</text>
+<text x="8" y="208" class="grp">ETHIOPIA</text>
+<text x="222" y="231" class="lab" text-anchor="end">Act With Her only</text>
+<line x1="362.9" y1="226" x2="514.6" y2="226" class="s1" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+<circle cx="438.7" cy="226" r="5.5" class="s1"/>
+<text x="523.6" y="231" class="val">+0.17*</text>
+<text x="222" y="277" class="lab" text-anchor="end">Act With Her + transfers</text>
+<line x1="298.2" y1="272" x2="460.5" y2="272" class="s2" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+<circle cx="379.3" cy="272" r="5.5" class="s2"/>
+<text x="469.5" y="277" class="val">+0.06</text>
+<text x="8" y="344" class="ax">Estimates from Shah et al. (2024), Table 4. * significant at the 5% level.</text>
+</svg>
+
+**Tanzania** produced the sharpest result, and it runs the other way. Goal setting delivered on its own *increased* moderate to severe depression by 8.6 percentage points. Where ELA clubs were already running, that effect was 11.1 percentage points lower, which is enough to cancel it out. The intervention was identical in both places. What differed was the support structure around it.
 
 ## Why it matters
 
